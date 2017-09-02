@@ -16,6 +16,7 @@ class CSGN {
         class uniWriteToLog {};
         class uniFpsSaver {};
         class uniDeleteAiInArea {};
+        class uniCargoInit {};
     };
 };
 
