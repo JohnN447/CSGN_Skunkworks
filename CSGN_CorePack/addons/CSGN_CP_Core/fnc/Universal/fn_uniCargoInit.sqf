@@ -36,20 +36,20 @@ if ((count _itemCargo)%2 == 0) then{
 _magazineCargo = (configfile >> "CfgVehicles" >> typeof _unit >> "CSGN_cargoMagazines") call BIS_fnc_getCfgDataArray;
 if ((count _magazineCargo)%2 == 0) then{
     for "_i" from 0 to _magazineCargo step 2 do {
-        _unit addItemCargoGlobal [(_magazineCargo select _i), (_magazineCargo select (_i+1))]
+        _unit addMagazineCargoGlobal [(_magazineCargo select _i), (_magazineCargo select (_i+1))]
     };
 };
 
 _backpackCargo = (configfile >> "CfgVehicles" >> typeof _unit >> "CSGN_cargoBackpacks") call BIS_fnc_getCfgDataArray;
 if ((count _backpackCargo)%2 == 0) then{
     for "_i" from 0 to _backpackCargo step 2 do {
-        _unit addItemCargoGlobal [(_backpackCargo select _i), (_backpackCargo select (_i+1))]
+        _unit addBackpackCargoGlobal [(_backpackCargo select _i), (_backpackCargo select (_i+1))]
     };
 };
 
 _weaponCargo = (configfile >> "CfgVehicles" >> typeof _unit >> "CSGN_cargoWeapons") call BIS_fnc_getCfgDataArray;
 if ((count _weaponCargo)%2 == 0) then{
     for "_i" from 0 to _weaponCargo step 2 do {
-        _unit addItemCargoGlobal [(_weaponCargo select _i), (_weaponCargo select (_i+1))]
+        _unit addWeaponCargoGlobal [(_weaponCargo select _i), (_weaponCargo select (_i+1))]
     };
 };
