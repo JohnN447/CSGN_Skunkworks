@@ -22,6 +22,14 @@
     class BWA3_Eagle_Fleck : BWA3_Eagle_hatch_base {
         _CSGN_isPatched = "??? profit";
         faction = "CSGN_CP_WE_GER";
+        CSGN_cargoItems[] = {};
+        CSGN_cargoMagazines[] = {"CSGN_CP_30Rnd_9x39_UW",6,"CSGN_CP_13Rnd_45ACP_Ball",1000};
+        CSGN_cargoWeapons[] = {};
+        CSGN_cargoBackpacks[] = {};
+        
+        class Eventhandlers : Eventhandlers {
+            init = "if (local (_this select 0)) then {[(_this select 0), """", [], false] call bis_fnc_initVehicle;}; [(_this select 0)] remoteExec [""CSGN_fnc_uniCargoInit"", _this, false];";
+        };
     };
     
     class BWA3_Eagle_FLW100_Fleck : BWA3_Eagle_flw100_base {
