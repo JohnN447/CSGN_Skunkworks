@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="CSGN Service Pack">
+	<Package name="Core">
+<!-- Factions -->
+    <!-- WEST -->
+		<Key ID="STR_CSGN_CP_WE_USA">
+			<Original>United States</Original>
+			<English>United States</English>
+			<German>Vereinigte Staaten</German>
+		</Key>
+    </Package>
+</Project>
