@@ -17,7 +17,12 @@ _unit = _this param [0, nil,[objNull]];
 if (isNil "_unit") exitWith { diag_log "wrong usage - no unit"; }; //todo: custom log message
 
 //if vehicle has cargo we stop right here.. not that we break something done by missionmakers
-if ((count ((getItemCargo _unit) select 0)) || (count ((getWeaponCargo _unit) select 0)) || (count ((getMagazineCargo _unit) select 0)) || (count ((getBackpackCargo _unit) select 0))) exitWith{};
+if (
+    ((count ((getItemCargo _unit) select 0))!=0) || 
+    ((count ((getWeaponCargo _unit) select 0))!=0) || 
+    ((count ((getMagazineCargo _unit) select 0))!=0) || 
+    ((count ((getBackpackCargo _unit) select 0))!=0)
+) exitWith{};
 
 //if for some reason we dont get an array thats even we do nothing, cause obviously someone sucks at doing configs :P
 //items and amount however will not be checked to speed things up a little
