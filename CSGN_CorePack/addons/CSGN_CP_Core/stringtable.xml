@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="CSGN Service Pack">
+	<Package name="Core">
+<!-- Factions -->
+    <!-- WEST -->
+		<Key ID="STR_CSGN_CP_WE_USA">
+			<Original>United States</Original>
+			<English>United States</English>
+			<German>Vereinigte Staaten</German>
+		</Key>
+		<Key ID="STR_CSGN_CP_WE_UK">
+			<Original>Russia</Original>
+			<English>Russia</English>
+			<German>Russland</German>
+		</Key>
+		<Key ID="STR_CSGN_CP_WE_GER">
+			<Original>Germany</Original>
+			<English>Germany</English>
+			<German>Deutschland</German>
+		</Key>
+		<Key ID="STR_CSGN_CP_WE_FRE">
+			<Original>France</Original>
+			<English>France</English>
+			<German>Frankreich</German>
+		</Key>
+
+		<Key ID="STR_CSGN_CP_WE_PMCRedFox">
+			<Original>RedFox Company</Original>
+			<English>RedFox Company</English>
+			<German>RedFox Company</German>
+		</Key>
+
+    <!-- EAST -->
+		<Key ID="STR_CSGN_CP_EA_RUS">
+			<Original>Russia</Original>
+			<English>Russia</English>
+			<German>Russland</German>
+		</Key>
+        
+    <!-- INDEP -->
+		<Key ID="STR_CSGN_CP_IN_GRE">
+			<Original>Greece</Original>
+			<English>Greece</English>
+			<German>Griechenland</German>
+		</Key>
+
+
+    <!-- CSGN_CP_wlInitM -->
+        <Key ID="STR_CSGN_CP_wlInitM">
+			<Original>CSGN Whitelist-System</Original>
+			<English>CSGN Whitelist-System</English>
+			<German>CSGN Whitelist-System</German>
+		</Key>
+        <!-- CSGN_CP_wlInitM_OnOff -->
+		<Key ID="STR_CSGN_CP_wlInitM_OnOff_Name">
+			<Original>Activate Whitelist-System?</Original>
+			<English>Activate Whitelist-System?</English>
+			<German>Whitelist-System aktivieren?</German>
+		</Key>
+		<Key ID="STR_CSGN_CP_wlInitM_OnOff_Description">
+			<Original>Activates Whitelist-System</Original>
+			<English>Activates Whitelist-System</English>
+			<German>Aktiviert das Whitelist-System</German>
+		</Key>
+        
+    <!-- vehicleclasses -->
+		<Key ID="STR_CSGN_CP_Hidden">
+			<Original>Disabled Objects</Original>
+			<English>Disabled Objects</English>
+			<German>Deaktivierte Objekte</German>
+		</Key>
+    </Package>
+</Project>

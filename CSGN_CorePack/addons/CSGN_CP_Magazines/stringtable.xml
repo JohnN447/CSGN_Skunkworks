@@ -1,0 +1,1250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="CSGN_ServicePack">
+	<Package name="CSGN_CP_Magazines">
+<!-- Ammo Descriptions -->
+        <!-- Ball -->
+		<Key ID="STR_DescS_CSGN_CP_Ball">
+			<Original>Full metal jacket</Original>
+			<English>Full metal jacket</English>
+			<German>Vollmantelgeschoss</German>
+		</Key>
+
+        <!-- Tracer -->
+		<Key ID="STR_DescS_CSGN_CP_Ball_T">
+			<Original>Tracer ammunition </Original>
+			<English>Tracer ammunition</English>
+			<German>Leuchtspurmunition</German>
+		</Key>
+        
+        <!-- Tracer IR -->
+		<Key ID="STR_DescS_CSGN_CP_Ball_Tir">
+			<Original>Enhanced tracer ammunition for use with NV</Original>
+			<English>Enhanced tracer ammunition for use with NV</English>
+			<German>Verbesserte Leuchtspurmunition zur Verwendung mit NV</German>
+		</Key>
+        
+        <!-- Mixed - primary for LMG and HMG usage -->
+		<Key ID="STR_DescS_CSGN_CP_Ball_Mixed">
+			<Original>Mixed belt, tracer every 5 bullets</Original>
+			<English>Mixed belt, tracer every 5 bullets</English>
+			<German>Gemischter Gurt, Leuchtspur jede 5. Kugel</German>
+		</Key>
+
+        <!-- Mk262 -->
+		<Key ID="STR_DescS_CSGN_CP_Mk262">
+			<Original>Enhanced ammunition for longrange use</Original>
+			<English>Enhanced ammunition for longrange use</English>
+			<German>Verbesserte Munition für den Langstrecken-Einsatz</German>
+		</Key>
+
+        <!-- Mk318 -->
+		<Key ID="STR_DescS_CSGN_CP_Mk318">
+			<Original>Enhanced ammunition with better penetration-performance</Original>
+			<English>Enhanced ammunition with better penetration-performance</English>
+			<German>Verbesserte Munition mit besserer Durchschlags-Performance</German>
+		</Key>
+
+        <!-- M995 -->
+		<Key ID="STR_DescS_CSGN_CP_M995">
+			<Original>Armorpiercing ammunition</Original>
+			<English>Armorpiercing ammunition</English>
+			<German>Panzerbrechende Munition</German>
+		</Key>
+
+        <!-- M118LR -->
+		<Key ID="STR_DescS_CSGN_CP_M118LR">
+			<Original>Enhanced ammunition for longrange use</Original>
+			<English>Enhanced ammunition for longrange use</English>
+			<German>Verbesserte Munition für den Langstrecken-Einsatz</German>
+		</Key>
+        
+        <!-- Mk316 Mod 0 -->
+		<Key ID="STR_DescS_CSGN_CP_Mk316">
+			<Original>Enhanced M118LR ammunition for longrange use</Original>
+			<English>Enhanced M118LR ammunition for longrange use</English>
+			<German>Verbesserte M118LR Munition für den Langstrecken-Einsatz</German>
+		</Key>
+
+        <!-- Mk319 Mod 0 -->
+		<Key ID="STR_DescS_CSGN_CP_Mk319">
+			<Original>Enhanced ammunition with better penetration-performance</Original>
+			<English>Enhanced ammunition with better penetration-performance</English>
+			<German>Verbesserte Munition mit besserer Durchschlagsleistung</German>
+		</Key>
+
+        <!-- M993 -->
+		<Key ID="STR_DescS_CSGN_CP_M993">
+			<Original>Armorpiercing ammunition</Original>
+			<English>Armorpiercing ammunition</English>
+			<German>Panzerbrechende Munition</German>
+		</Key>
+
+        <!-- Subsonic -->
+		<Key ID="STR_DescS_CSGN_CP_Subsonic">
+			<Original>Subsonic ammunition</Original>
+			<English>Subsonic ammunition</English>
+			<German>Unterschallmunition</German>
+		</Key>
+        
+        <!-- UnderWater -->
+		<Key ID="STR_DescS_CSGN_CP_UW">
+			<Original>Enhanced ammunition for underwater use</Original>
+			<English>Enhanced ammunition for underwater use</English>
+			<German>Verbesserte Munition für den Unterwasser-Einsatz</German>
+		</Key>
+
+        <!-- 7N14 -->
+		<Key ID="STR_DescS_CSGN_CP_7N14">
+			<Original>Enhanced ammunition for longrange use with armor piercing capability</Original>
+			<English>Enhanced ammunition for longrange use with armor piercing capability</English>
+			<German>Verbesserte Munition für den Langstrecken-Einsatz mit panzerbrechenden Fähigkeiten</German>
+		</Key>
+
+        <!-- 7T2 -->
+		<Key ID="STR_DescS_CSGN_CP_7T2">
+			<Original>Tracer ammunition</Original>
+			<English>Tracer ammunition</English>
+			<German>Leuchtspurmunition</German>
+		</Key>
+
+        <!-- API -->
+		<Key ID="STR_DescS_CSGN_CP_API">
+			<Original>Armorpiercing incendiary ammunition</Original>
+			<English>Armorpiercing incendiary ammunition</English>
+			<German>Panzerbrechende Brand-Munition</German>
+		</Key>
+
+        <!-- AMAX -->
+		<Key ID="STR_DescS_CSGN_CP_AMAX">
+			<Original>AMAX ammunition</Original>
+			<English>AMAX ammunition</English>
+			<German>AMAX Munition</German>
+		</Key>
+
+        <!-- SP5 -->
+		<Key ID="STR_DescS_CSGN_CP_SP5">
+			<Original>Special ammunition for the AS VAL and its variants</Original>
+			<English>Special ammunition for the AS VAL and its variants</English>
+			<German>Spezielle Munition für die AS VAL und ihre Varianten</German>
+		</Key>
+        
+        <!-- 57N181S -->
+		<Key ID="STR_DescS_CSGN_CP_57N181S">
+			<Original>Steel-core bullet</Original>
+			<English>Steel-core bullet</English>
+			<German>Stahlkerngeschoss</German>
+		</Key>
+        
+<!-- 556x45 -->
+    <!-- 556x45 20 Rounds -->
+        <!-- CSGN_CP_20Rnd_556x45_Ball -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ 5.56x45mm, 20 Rounds</English>
+			<German>FMJ 5.56x45mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_556x45_Mk262 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_Mk262">
+			<Original>Mk262 5.56x45mm, 20 Rounds</Original>
+			<English>Mk262 5.56x45mm, 20 Rounds</English>
+			<German>Mk262 5.56x45mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 20 Rounds</Original>
+			<English>Mk318 5.56x45mm, 20 Rounds</English>
+			<German>Mk318 5.56x45mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_556x45_M995 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 20 Rounds</Original>
+			<English>M995 5.56x45mm, 20 Rounds</English>
+			<German>M995 5.56x45mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 20 Rounds</English>
+			<German>FMJ T 5.56x45mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 20 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 20 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 20 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_556x45_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ 5.56x45mm, 30 Rounds</English>
+			<German>FMJ 5.56x45mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_556x45_Mk262 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_Mk262">
+			<Original>Mk262 5.56x45mm, 30 Rounds</Original>
+			<English>Mk262 5.56x45mm, 30 Rounds</English>
+			<German>Mk262 5.56x45mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 30 Rounds</Original>
+			<English>Mk318 5.56x45mm, 30 Rounds</English>
+			<German>Mk318 5.56x45mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_556x45_M995 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 30 Rounds</Original>
+			<English>M995 5.56x45mm, 30 Rounds</English>
+			<German>M995 5.56x45mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 30 Rounds</English>
+			<German>FMJ T 5.56x45mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 30 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 30 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 30 Schuss</German>
+		</Key>
+
+    <!-- 556x45 60 Rounds -->
+        <!-- CSGN_CP_60Rnd_556x45_Ball -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ 5.56x45mm, 60 Rounds</English>
+			<German>FMJ 5.56x45mm, 60 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_60Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 60 Rounds</Original>
+			<English>Mk318 5.56x45mm, 60 Rounds</English>
+			<German>Mk318 5.56x45mm, 60 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_60Rnd_556x45_M995 -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 60 Rounds</Original>
+			<English>M995 5.56x45mm, 60 Rounds</English>
+			<German>M995 5.56x45mm, 60 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_60Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 60 Rounds</English>
+			<German>FMJ T 5.56x45mm, 60 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_60Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_Ball_Mixed">
+			<Original>FMJ T 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 60 Rounds</English>
+			<German>FMJ T 5.56x45mm, 60 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_60Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_60Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 60 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 60 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 60 Schuss</German>
+		</Key>
+
+    <!-- 556x45 100 Rounds -->
+        <!-- CSGN_CP_100Rnd_556x45_Ball -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ 5.56x45mm, 100 Rounds</English>
+			<German>FMJ 5.56x45mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 100 Rounds</Original>
+			<English>Mk318 5.56x45mm, 100 Rounds</English>
+			<German>Mk318 5.56x45mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_556x45_M995 -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 100 Rounds</Original>
+			<English>M995 5.56x45mm, 100 Rounds</English>
+			<German>M995 5.56x45mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 100 Rounds</English>
+			<German>FMJ T 5.56x45mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_Ball_Mixed">
+			<Original>FMJ T 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 100 Rounds</English>
+			<German>FMJ T 5.56x45mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 100 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 100 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 100 Schuss</German>
+		</Key>
+        
+    <!-- 556x45 200 Rounds -->
+        <!-- CSGN_CP_200Rnd_556x45_Ball -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_Ball">
+			<Original>FMJ 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ 5.56x45mm, 200 Rounds</English>
+			<German>FMJ 5.56x45mm, 200 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_200Rnd_556x45_Mk318 -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_Mk318">
+			<Original>Mk318 5.56x45mm, 200 Rounds</Original>
+			<English>Mk318 5.56x45mm, 200 Rounds</English>
+			<German>Mk318 5.56x45mm, 200 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_200Rnd_556x45_M995 -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_M995">
+			<Original>M995 5.56x45mm, 200 Rounds</Original>
+			<English>M995 5.56x45mm, 200 Rounds</English>
+			<German>M995 5.56x45mm, 200 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_200Rnd_556x45_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_Ball_T">
+			<Original>FMJ T 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 200 Rounds</English>
+			<German>FMJ T 5.56x45mm, 200 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_200Rnd_556x45_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_Ball_Mixed">
+			<Original>FMJ T 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ T 5.56x45mm, 200 Rounds</English>
+			<German>FMJ T 5.56x45mm, 200 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_200Rnd_556x45_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_200Rnd_556x45_Ball_Tir">
+			<Original>FMJ IR 5.56x45mm, 200 Rounds</Original>
+			<English>FMJ IR 5.56x45mm, 200 Rounds</English>
+			<German>FMJ IR 5.56x45mm, 200 Schuss</German>
+		</Key>
+
+<!-- 762x35 -->
+    <!-- 762x35 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_762x35_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x35_Ball">
+			<Original>FMJ 7.62x35mm, 30 Rounds</Original>
+			<English>FMJ 7.62x35mm, 30 Rounds</English>
+			<German>FMJ 7.62x35mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x35_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x35_Subsonic">
+			<Original>Subsonic 7.62x35mm, 30 Rounds</Original>
+			<English>Subsonic 7.62x35mm, 30 Rounds</English>
+			<German>Unterschall 7.62x35mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x35_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x35_Ball_T">
+			<Original>FMJ T 7.62x35mm, 30 Rounds</Original>
+			<English>FMJ T 7.62x35mm, 30 Rounds</English>
+			<German>FMJ T 7.62x35mm, 30 Schuss</German>
+		</Key>
+        
+<!-- 762x51 -->
+    <!-- 762x51 10 Rounds -->
+        <!-- CSGN_CP_5Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 5 Rounds</Original>
+			<English>FMJ 7.62x51mm, 5 Rounds</English>
+			<German>FMJ 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_M118LR -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_M118LR">
+			<Original>M118LR 7.62x51mm, 5 Rounds</Original>
+			<English>M118LR 7.62x51mm, 5 Rounds</English>
+			<German>M118LR 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_Mk316 -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Mk316">
+			<Original>Mk316 7.62x51mm, 5 Rounds</Original>
+			<English>Mk316 7.62x51mm, 5 Rounds</English>
+			<German>Mk316 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 5 Rounds</Original>
+			<English>Mk319 7.62x51mm, 5 Rounds</English>
+			<German>Mk319 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 5 Rounds</Original>
+			<English>M993 7.62x51mm, 5 Rounds</English>
+			<German>M993 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Subsonic">
+			<Original>Subsonic 7.62x51mm, 5 Rounds</Original>
+			<English>Subsonic 7.62x51mm, 5 Rounds</English>
+			<German>Unterschall 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_UW -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_UW">
+			<Original>UW 7.62x51mm, 5 Rounds</Original>
+			<English>UW 7.62x51mm, 5 Rounds</English>
+			<German>UW 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 5 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 5 Rounds</English>
+			<German>FMJ T 7.62x51mm, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 5 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 5 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 5 Schuss</German>
+		</Key>
+
+    <!-- 762x51 10 Rounds -->
+        <!-- CSGN_CP_10Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 10 Rounds</Original>
+			<English>FMJ 7.62x51mm, 10 Rounds</English>
+			<German>FMJ 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_M118LR -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_M118LR">
+			<Original>M118LR 7.62x51mm, 10 Rounds</Original>
+			<English>M118LR 7.62x51mm, 10 Rounds</English>
+			<German>M118LR 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_Mk316 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Mk316">
+			<Original>Mk316 7.62x51mm, 10 Rounds</Original>
+			<English>Mk316 7.62x51mm, 10 Rounds</English>
+			<German>Mk316 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 10 Rounds</Original>
+			<English>Mk319 7.62x51mm, 10 Rounds</English>
+			<German>Mk319 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 10 Rounds</Original>
+			<English>M993 7.62x51mm, 10 Rounds</English>
+			<German>M993 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Subsonic">
+			<Original>Subsonic 7.62x51mm, 10 Rounds</Original>
+			<English>Subsonic 7.62x51mm, 10 Rounds</English>
+			<German>Unterschall 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_UW -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_UW">
+			<Original>UW 7.62x51mm, 10 Rounds</Original>
+			<English>UW 7.62x51mm, 10 Rounds</English>
+			<German>UW 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 10 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 10 Rounds</English>
+			<German>FMJ T 7.62x51mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 10 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 10 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 10 Schuss</German>
+		</Key>
+        
+    <!-- 762x51 20 Rounds -->
+        <!-- CSGN_CP_20Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 20 Rounds</Original>
+			<English>FMJ 7.62x51mm, 20 Rounds</English>
+			<German>FMJ 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_M118LR -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_M118LR">
+			<Original>M118LR 7.62x51mm, 20 Rounds</Original>
+			<English>M118LR 7.62x51mm, 20 Rounds</English>
+			<German>M118LR 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_Mk316 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Mk316">
+			<Original>Mk316 7.62x51mm, 20 Rounds</Original>
+			<English>Mk316 7.62x51mm, 20 Rounds</English>
+			<German>Mk316 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 20 Rounds</Original>
+			<English>Mk319 7.62x51mm, 20 Rounds</English>
+			<German>Mk319 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 20 Rounds</Original>
+			<English>M993 7.62x51mm, 20 Rounds</English>
+			<German>M993 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Subsonic">
+			<Original>Subsonic 7.62x51mm, 20 Rounds</Original>
+			<English>Subsonic 7.62x51mm, 20 Rounds</English>
+			<German>Unterschall 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_UW -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_UW">
+			<Original>UW 7.62x51mm, 20 Rounds</Original>
+			<English>UW 7.62x51mm, 20 Rounds</English>
+			<German>UW 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 20 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 20 Rounds</English>
+			<German>FMJ T 7.62x51mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 20 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 20 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 20 Schuss</German>
+		</Key>
+
+    <!-- 762x51 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 30 Rounds</Original>
+			<English>FMJ 7.62x51mm, 30 Rounds</English>
+			<German>FMJ 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_M118LR -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_M118LR">
+			<Original>M118LR 7.62x51mm, 30 Rounds</Original>
+			<English>M118LR 7.62x51mm, 30 Rounds</English>
+			<German>M118LR 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_Mk316 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Mk316">
+			<Original>Mk316 7.62x51mm, 30 Rounds</Original>
+			<English>Mk316 7.62x51mm, 30 Rounds</English>
+			<German>Mk316 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 30 Rounds</Original>
+			<English>Mk319 7.62x51mm, 30 Rounds</English>
+			<German>Mk319 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 30 Rounds</Original>
+			<English>M993 7.62x51mm, 30 Rounds</English>
+			<German>M993 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Subsonic">
+			<Original>Subsonic 7.62x51mm, 30 Rounds</Original>
+			<English>Subsonic 7.62x51mm, 30 Rounds</English>
+			<German>Unterschall 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 30 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 30 Rounds</English>
+			<German>FMJ T 7.62x51mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 30 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 30 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 30 Schuss</German>
+		</Key>
+
+    <!-- 762x51 75 Rounds -->
+        <!-- CSGN_CP_75Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 75 Rounds</Original>
+			<English>FMJ 7.62x51mm, 75 Rounds</English>
+			<German>FMJ 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_M118LR -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_M118LR">
+			<Original>M118LR 7.62x51mm, 75 Rounds</Original>
+			<English>M118LR 7.62x51mm, 75 Rounds</English>
+			<German>M118LR 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Mk316 -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Mk316">
+			<Original>Mk316 7.62x51mm, 75 Rounds</Original>
+			<English>Mk316 7.62x51mm, 75 Rounds</English>
+			<German>Mk316 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 75 Rounds</Original>
+			<English>Mk319 7.62x51mm, 75 Rounds</English>
+			<German>Mk319 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 75 Rounds</Original>
+			<English>M993 7.62x51mm, 75 Rounds</English>
+			<German>M993 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Subsonic -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Subsonic">
+			<Original>Subsonic 7.62x51mm, 75 Rounds</Original>
+			<English>Subsonic 7.62x51mm, 75 Rounds</English>
+			<German>Unterschall 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 75 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 75 Rounds</English>
+			<German>FMJ T 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Ball_Mixed">
+			<Original>FMJ M 7.62x51mm, 75 Rounds</Original>
+			<English>FMJ M 7.62x51mm, 75 Rounds</English>
+			<German>FMJ M 7.62x51mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 75 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 75 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 75 Schuss</German>
+		</Key>
+        
+    <!-- 762x51 100 Rounds -->
+        <!-- CSGN_CP_100Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 100 Rounds</Original>
+			<English>FMJ 7.62x51mm, 100 Rounds</English>
+			<German>FMJ 7.62x51mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 100 Rounds</Original>
+			<English>Mk319 7.62x51mm, 100 Rounds</English>
+			<German>Mk319 7.62x51mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 100 Rounds</Original>
+			<English>M993 7.62x51mm, 100 Rounds</English>
+			<German>M993 7.62x51mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 100 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 100 Rounds</English>
+			<German>FMJ T 7.62x51mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x51_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_Ball_Mixed">
+			<Original>FMJ M 7.62x51mm, 100 Rounds</Original>
+			<English>FMJ M 7.62x51mm, 100 Rounds</English>
+			<German>FMJ M 7.62x51mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 100 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 100 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 100 Schuss</German>
+		</Key>
+        
+    <!-- 762x51 120 Rounds -->
+        <!-- CSGN_CP_120Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 120 Rounds</Original>
+			<English>FMJ 7.62x51mm, 120 Rounds</English>
+			<German>FMJ 7.62x51mm, 120 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_120Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 120 Rounds</Original>
+			<English>Mk319 7.62x51mm, 120 Rounds</English>
+			<German>Mk319 7.62x51mm, 120 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_120Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 120 Rounds</Original>
+			<English>M993 7.62x51mm, 120 Rounds</English>
+			<German>M993 7.62x51mm, 120 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_120Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 120 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 120 Rounds</English>
+			<German>FMJ T 7.62x51mm, 120 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_120Rnd_762x51_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_Ball_Mixed">
+			<Original>FMJ M 7.62x51mm, 120 Rounds</Original>
+			<English>FMJ M 7.62x51mm, 120 Rounds</English>
+			<German>FMJ M 7.62x51mm, 120 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_120Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_120Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 120 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 120 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 120 Schuss</German>
+		</Key>
+        
+    <!-- 762x51 150 Rounds -->
+        <!-- CSGN_CP_150Rnd_762x51_Ball -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_Ball">
+			<Original>FMJ 7.62x51mm, 150 Rounds</Original>
+			<English>FMJ 7.62x51mm, 150 Rounds</English>
+			<German>FMJ 7.62x51mm, 150 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_150Rnd_762x51_Mk319 -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_Mk319">
+			<Original>Mk319 7.62x51mm, 150 Rounds</Original>
+			<English>Mk319 7.62x51mm, 150 Rounds</English>
+			<German>Mk319 7.62x51mm, 150 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_150Rnd_762x51_M993 -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_M993">
+			<Original>M993 7.62x51mm, 150 Rounds</Original>
+			<English>M993 7.62x51mm, 150 Rounds</English>
+			<German>M993 7.62x51mm, 150 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_150Rnd_762x51_Ball_T -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_Ball_T">
+			<Original>FMJ T 7.62x51mm, 150 Rounds</Original>
+			<English>FMJ T 7.62x51mm, 150 Rounds</English>
+			<German>FMJ T 7.62x51mm, 150 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_150Rnd_762x51_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_Ball_Mixed">
+			<Original>FMJ M 7.62x51mm, 150 Rounds</Original>
+			<English>FMJ M 7.62x51mm, 150 Rounds</English>
+			<German>FMJ M 7.62x51mm, 150 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_150Rnd_762x51_Ball_Tir -->
+		<Key ID="STR_Name_CSGN_CP_150Rnd_762x51_Ball_Tir">
+			<Original>FMJ IR 7.62x51mm, 150 Rounds</Original>
+			<English>FMJ IR 7.62x51mm, 150 Rounds</English>
+			<German>FMJ IR 7.62x51mm, 150 Schuss</German>
+		</Key>
+
+<!-- 9x18 -->
+        <!-- CSGN_CP_8Rnd_9x18_57N181S -->
+		<Key ID="STR_Name_CSGN_CP_8Rnd_9x18_57N181S">
+			<Original>57-N-181S 9x18mm, 8 Rounds</Original>
+			<English>57-N-181S 9x18mm, 8 Rounds</English>
+			<German>57-N-181S 9x18mm, 8 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_9x18_57N181S -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x18_57N181S">
+			<Original>57-N-181S 9x18mm, 10 Rounds</Original>
+			<English>57-N-181S 9x18mm, 10 Rounds</English>
+			<German>57-N-181S 9x18mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_12Rnd_9x18_57N181S -->
+		<Key ID="STR_Name_CSGN_CP_12Rnd_9x18_57N181S">
+			<Original>57-N-181S 9x18mm, 12 Rounds</Original>
+			<English>57-N-181S 9x18mm, 12 Rounds</English>
+			<German>57-N-181S 9x18mm, 12 Schuss</German>
+		</Key>
+        
+<!-- 9x19 -->
+        <!-- CSGN_CP_10Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 10 Rounds</Original>
+			<English>FMJ 9x19mm, 10 Rounds</English>
+			<German>FMJ 9x19mm, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_12Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_12Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 12 Rounds</Original>
+			<English>FMJ 9x19mm, 12 Rounds</English>
+			<German>FMJ 9x19mm, 12 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_13Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_13Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 13 Rounds</Original>
+			<English>FMJ 9x19mm, 13 Rounds</English>
+			<German>FMJ 9x19mm, 13 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_15Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_15Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 15 Rounds</Original>
+			<English>FMJ 9x19mm, 15 Rounds</English>
+			<German>FMJ 9x19mm, 15 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_17Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_17Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 17 Rounds</Original>
+			<English>FMJ 9x19mm, 17 Rounds</English>
+			<German>FMJ 9x19mm, 17 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_18Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_18Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 18 Rounds</Original>
+			<English>FMJ 9x19mm, 18 Rounds</English>
+			<German>FMJ 9x19mm, 18 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 20 Rounds</Original>
+			<English>FMJ 9x19mm, 20 Rounds</English>
+			<German>FMJ 9x19mm, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 25 Rounds</Original>
+			<English>FMJ 9x19mm, 25 Rounds</English>
+			<German>FMJ 9x19mm, 25 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 30 Rounds</Original>
+			<English>FMJ 9x19mm, 30 Rounds</English>
+			<German>FMJ 9x19mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_9x19_UW -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x19_UW">
+			<Original>UW 9x19mm, 30 Rounds</Original>
+			<English>UW 9x19mm, 30 Rounds</English>
+			<German>UW 9x19mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_32Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_32Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 32 Rounds</Original>
+			<English>FMJ 9x19mm, 32 Rounds</English>
+			<German>FMJ 9x19mm, 32 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_40Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_40Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 40 Rounds</Original>
+			<English>FMJ 9x19mm, 40 Rounds</English>
+			<German>FMJ 9x19mm, 40 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_50Rnd_9x19_Ball -->
+		<Key ID="STR_Name_CSGN_CP_50Rnd_9x19_Ball">
+			<Original>FMJ 9x19mm, 50 Rounds</Original>
+			<English>FMJ 9x19mm, 50 Rounds</English>
+			<German>FMJ 9x19mm, 50 Schuss</German>
+		</Key>
+<!-- 45ACP -->
+        <!-- CSGN_CP_7Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_7Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 7 Rounds</Original>
+			<English>FMJ 45ACP, 7 Rounds</English>
+			<German>FMJ 45ACP, 7 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_8Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_8Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 8 Rounds</Original>
+			<English>FMJ 45ACP, 8 Rounds</English>
+			<German>FMJ 45ACP, 8 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 10 Rounds</Original>
+			<English>FMJ 45ACP, 10 Rounds</English>
+			<German>FMJ 45ACP, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_12Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_12Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 12 Rounds</Original>
+			<English>FMJ 45ACP, 12 Rounds</English>
+			<German>FMJ 45ACP, 12 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_13Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_13Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 13 Rounds</Original>
+			<English>FMJ 45ACP, 13 Rounds</English>
+			<German>FMJ 45ACP, 13 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_45ACP_Ball -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_45ACP_Ball">
+			<Original>FMJ 45ACP, 25 Rounds</Original>
+			<English>FMJ 45ACP, 25 Rounds</English>
+			<German>FMJ 45ACP, 25 Schuss</German>
+		</Key>
+        
+<!-- 127x99 -->
+    <!-- 127x99 5 Rounds -->
+        <!-- CSGN_CP_5Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_127x99_Ball">
+			<Original>FMJ 127x99, 5 Rounds</Original>
+			<English>FMJ 127x99, 5 Rounds</English>
+			<German>FMJ 127x99, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_127x99_API -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_127x99_API">
+			<Original>API 127x99, 5 Rounds</Original>
+			<English>API 127x99, 5 Rounds</English>
+			<German>API 127x99, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_127x99_AMAX">
+			<Original>AMAX 127x99, 5 Rounds</Original>
+			<English>AMAX 127x99, 5 Rounds</English>
+			<German>AMAX 127x99, 5 Schuss</German>
+		</Key>
+        
+    <!-- 127x99 7 Rounds -->
+        <!-- CSGN_CP_7Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_7Rnd_127x99_Ball">
+			<Original>FMJ 127x99, 7 Rounds</Original>
+			<English>FMJ 127x99, 7 Rounds</English>
+			<German>FMJ 127x99, 7 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_7Rnd_127x99_API -->
+		<Key ID="STR_Name_CSGN_CP_7Rnd_127x99_API">
+			<Original>API 127x99, 7 Rounds</Original>
+			<English>API 127x99, 7 Rounds</English>
+			<German>API 127x99, 7 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_7Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_7Rnd_127x99_AMAX">
+			<Original>AMAX 127x99, 7 Rounds</Original>
+			<English>AMAX 127x99, 7 Rounds</English>
+			<German>AMAX 127x99, 7 Schuss</German>
+		</Key>
+        
+    <!-- 127x99 10 Rounds -->
+        <!-- CSGN_CP_10Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_127x99_Ball">
+			<Original>FMJ 127x99, 10 Rounds</Original>
+			<English>FMJ 127x99, 10 Rounds</English>
+			<German>FMJ 127x99, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_127x99_API -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_127x99_API">
+			<Original>API 127x99, 10 Rounds</Original>
+			<English>API 127x99, 10 Rounds</English>
+			<German>API 127x99, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_127x99_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_127x99_AMAX">
+			<Original>AMAX 127x99, 10 Rounds</Original>
+			<English>AMAX 127x99, 10 Rounds</English>
+			<German>AMAX 127x99, 10 Schuss</German>
+		</Key>
+
+<!-- 762x54 Normal -->
+    <!-- 762x54 10 Rounds -->
+        <!-- CSGN_CP_10Rnd_762x54_Ball -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x54_Ball">
+			<Original>FMJ 762x54, 10 Rounds</Original>
+			<English>FMJ 762x54, 10 Rounds</English>
+			<German>FMJ 762x54, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x54_7N14 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x54_7N14">
+			<Original>7N14 762x54, 10 Rounds</Original>
+			<English>7N14 762x54, 10 Rounds</English>
+			<German>7N14 762x54, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_762x54_7T2 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_762x54_7T2">
+			<Original>7T2 762x54, 10 Rounds</Original>
+			<English>7T2 762x54, 10 Rounds</English>
+			<German>7T2 762x54, 10 Schuss</German>
+		</Key>
+        
+    <!-- 762x54 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_762x54_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x54_Ball">
+			<Original>FMJ 762x54, 30 Rounds</Original>
+			<English>FMJ 762x54, 30 Rounds</English>
+			<German>FMJ 762x54, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x54_7N14 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x54_7N14">
+			<Original>7N14 762x54, 30 Rounds</Original>
+			<English>7N14 762x54, 30 Rounds</English>
+			<German>7N14 762x54, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x54_7T2 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x54_7T2">
+			<Original>7T2 762x54, 30 Rounds</Original>
+			<English>7T2 762x54, 30 Rounds</English>
+			<German>7T2 762x54, 30 Schuss</German>
+		</Key>
+        
+    <!-- 762x54 100 Rounds -->
+        <!-- CSGN_CP_100Rnd_762x54_Ball -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x54_Ball">
+			<Original>FMJ 762x54, 100 Rounds</Original>
+			<English>FMJ 762x54, 100 Rounds</English>
+			<German>FMJ 762x54, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x54_7T2_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x54_7T2_Mixed">
+			<Original>FMJ M 762x54, 100 Rounds</Original>
+			<English>FMJ M 762x54, 100 Rounds</English>
+			<German>FMJ M 762x54, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_762x54_7T2 -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_762x54_7T2">
+			<Original>7T2 762x54, 100 Rounds</Original>
+			<English>7T2 762x54, 100 Rounds</English>
+			<German>7T2 762x54, 100 Schuss</German>
+		</Key>
+
+<!-- 9x39 -->
+    <!-- 9x39 10 Rounds -->
+        <!-- CSGN_CP_10Rnd_9x39_SP5 -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x39_SP5">
+			<Original>SP5 9x39, 10 Rounds</Original>
+			<English>SP5 9x39, 10 Rounds</English>
+			<German>SP5 9x39, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_9x39_UW -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x39_UW">
+			<Original>UW 9x39, 10 Rounds</Original>
+			<English>UW 9x39, 10 Rounds</English>
+			<German>UW 9x39, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_9x39_SP5_T -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x39_SP5_T">
+			<Original>SP5 T 9x39, 10 Rounds</Original>
+			<English>SP5 T 9x39, 10 Rounds</English>
+			<German>SP5 T 9x39, 10 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_10Rnd_9x39_SP5_Tir -->
+		<Key ID="STR_Name_CSGN_CP_10Rnd_9x39_SP5">
+			<Original>SP5 IR 9x39, 10 Rounds</Original>
+			<English>SP5 IR 9x39, 10 Rounds</English>
+			<German>SP5 IR 9x39, 10 Schuss</German>
+		</Key>
+        
+    <!-- 9x39 20 Rounds -->
+        <!-- CSGN_CP_20Rnd_9x39_SP5 -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_9x39_SP5">
+			<Original>SP5 9x39, 20 Rounds</Original>
+			<English>SP5 9x39, 20 Rounds</English>
+			<German>SP5 9x39, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_9x39_UW -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_9x39_UW">
+			<Original>UW 9x39, 20 Rounds</Original>
+			<English>UW 9x39, 20 Rounds</English>
+			<German>UW 9x39, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_9x39_SP5_T -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_9x39_SP5_T">
+			<Original>SP5 T 9x39, 20 Rounds</Original>
+			<English>SP5 T 9x39, 20 Rounds</English>
+			<German>SP5 T 9x39, 20 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_20Rnd_9x39_SP5_Tir -->
+		<Key ID="STR_Name_CSGN_CP_20Rnd_9x39_SP5_Tir">
+			<Original>SP5 IR 9x39, 20 Rounds</Original>
+			<English>SP5 IR 9x39, 20 Rounds</English>
+			<German>SP5 IR 9x39, 20 Schuss</German>
+		</Key>
+    
+    <!-- 9x39 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_9x39_SP5 -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x39_SP5">
+			<Original>SP5 9x39, 30 Rounds</Original>
+			<English>SP5 9x39, 30 Rounds</English>
+			<German>SP5 9x39, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_9x39_UW -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x39_UW">
+			<Original>UW 9x39, 30 Rounds</Original>
+			<English>UW 9x39, 30 Rounds</English>
+			<German>UW 9x39, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_9x39_SP5_T -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x39_SP5">
+			<Original>SP5 T 9x39, 30 Rounds</Original>
+			<English>SP5 T 9x39, 30 Rounds</English>
+			<German>SP5 T 9x39, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_9x39_SP5_Tir -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_9x39_SP5_Tir">
+			<Original>SP5 IR 9x39, 30 Rounds</Original>
+			<English>SP5 IR 9x39, 30 Rounds</English>
+			<German>SP5 IR 9x39, 30 Schuss</German>
+		</Key>
+
+<!-- 545x39 -->
+    <!-- 545x39 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_545x39_7N6M -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_545x39_7N6M">
+			<Original>7N6M 5.45x39mm, 30 Rounds</Original>
+			<English>7N6M 5.45x39mm, 30 Rounds</English>
+			<German>7N6M 5.45x39mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_545x39_7T3M -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_545x39_7T3M">
+			<Original>7T3M 5.45x39mm, 30 Rounds</Original>
+			<English>7T3M 5.45x39mm, 30 Rounds</English>
+			<German>7T3M 5.45x39mm, 30 Schuss</German>
+		</Key>
+
+    <!-- 545x39 45 Rounds -->
+        <!-- CSGN_CP_45Rnd_545x39_7N6M -->
+		<Key ID="STR_Name_CSGN_CP_45Rnd_545x39_7N6M">
+			<Original>7N6M 5.45x39mm, 45 Rounds</Original>
+			<English>7N6M 5.45x39mm, 45 Rounds</English>
+			<German>7N6M 5.45x39mm, 45 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_545x39_7T3M -->
+		<Key ID="STR_Name_CSGN_CP_45Rnd_545x39_7T3M">
+			<Original>7T3M 5.45x39mm, 45 Rounds</Original>
+			<English>7T3M 5.45x39mm, 45 Rounds</English>
+			<German>7T3M 5.45x39mm, 45 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_45Rnd_545x39_7N6M_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_45Rnd_545x39_7N6M_Mixed">
+			<Original>7N6M M 5.45x39mm, 45 Rounds</Original>
+			<English>7N6M M 5.45x39mm, 45 Rounds</English>
+			<German>7N6M M 5.45x39mm, 45 Schuss</German>
+		</Key>
+
+    <!-- 545x39 100 Rounds -->
+        <!-- CSGN_CP_100Rnd_545x39_7N6M -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_545x39_7N6M">
+			<Original>7N6M 5.45x39mm, 100 Rounds</Original>
+			<English>7N6M 5.45x39mm, 100 Rounds</English>
+			<German>7N6M 5.45x39mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_545x39_7T3M -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_545x39_7T3M">
+			<Original>7T3M 5.45x39mm, 100 Rounds</Original>
+			<English>7T3M 5.45x39mm, 100 Rounds</English>
+			<German>7T3M 5.45x39mm, 100 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_100Rnd_545x39_7N6M_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_100Rnd_545x39_7N6M_Mixed">
+			<Original>7N6M M 5.45x39mm, 100 Rounds</Original>
+			<English>7N6M M 5.45x39mm, 100 Rounds</English>
+			<German>7N6M M 5.45x39mm, 100 Schuss</German>
+		</Key>
+
+<!-- 762x39 -->
+    <!-- 762x39 30 Rounds -->
+        <!-- CSGN_CP_30Rnd_762x39_Ball -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x39_Ball">
+			<Original>FMJ 7.62x39mm, 30 Rounds</Original>
+			<English>FMJ 7.62x39mm, 30 Rounds</English>
+			<German>FMJ 7.62x39mm, 30 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x39_57N231P -->
+		<Key ID="STR_Name_CSGN_CP_30Rnd_762x39_57N231P">
+			<Original>57N231P 7.62x39mm, 30 Rounds</Original>
+			<English>57N231P 7.62x39mm, 30 Rounds</English>
+			<German>57N231P 7.62x39mm, 30 Schuss</German>
+		</Key>
+
+    <!-- 762x39 40 Rounds -->
+        <!-- CSGN_CP_40Rnd_762x39_Ball -->
+		<Key ID="STR_Name_CSGN_CP_40Rnd_762x39_Ball">
+			<Original>FMJ 7.62x39mm, 40 Rounds</Original>
+			<English>FMJ 7.62x39mm, 40 Rounds</English>
+			<German>FMJ 7.62x39mm, 40 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x39_57N231P -->
+		<Key ID="STR_Name_CSGN_CP_40Rnd_762x39_57N231P">
+			<Original>57N231P 7.62x39mm, 40 Rounds</Original>
+			<English>57N231P 7.62x39mm, 40 Rounds</English>
+			<German>57N231P 7.62x39mm, 40 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_40Rnd_762x39_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_40Rnd_762x39_Ball_Mixed">
+			<Original>FMJ M 7.62x39mm, 40 Rounds</Original>
+			<English>FMJ M 7.62x39mm, 40 Rounds</English>
+			<German>FMJ M 7.62x39mm, 40 Schuss</German>
+		</Key>
+
+    <!-- 762x39 75 Rounds -->
+        <!-- CSGN_CP_75Rnd_762x39_Ball -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x39_Ball">
+			<Original>FMJ 7.62x39mm, 75 Rounds</Original>
+			<English>FMJ 7.62x39mm, 75 Rounds</English>
+			<German>FMJ 7.62x39mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_30Rnd_762x39_57N231P -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x39_57N231P">
+			<Original>57N231P 7.62x39mm, 75 Rounds</Original>
+			<English>57N231P 7.62x39mm, 75 Rounds</English>
+			<German>57N231P 7.62x39mm, 75 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_75Rnd_762x39_Ball_Mixed -->
+		<Key ID="STR_Name_CSGN_CP_75Rnd_762x39_Ball_Mixed">
+			<Original>FMJ M 7.62x39mm, 75 Rounds</Original>
+			<English>FMJ M 7.62x39mm, 75 Rounds</English>
+			<German>FMJ M 7.62x39mm, 75 Schuss</German>
+		</Key>
+
+<!-- 127x108 -->
+    <!-- 127x108 5 Rounds -->
+        <!-- CSGN_CP_5Rnd_127x108_Ball -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_127x108_Ball">
+			<Original>FMJ 12.7x108mm, 5 Rounds</Original>
+			<English>FMJ 12.7x108mm, 5 Rounds</English>
+			<German>FMJ 12.7x108mm, 5 Schuss</German>
+		</Key>
+        
+<!-- 338 -->
+    <!-- 338 5 Rounds -->
+        <!-- CSGN_CP_5Rnd_338_Ball -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_338_Ball">
+			<Original>FMJ .338, 5 Rounds</Original>
+			<English>FMJ .338, 5 Rounds</English>
+			<German>FMJ .338, 5 Schuss</German>
+		</Key>
+        <!-- CSGN_CP_5Rnd_338_API -->
+		<Key ID="STR_Name_CSGN_CP_5Rnd_338_API">
+			<Original>API .338, 5 Rounds</Original>
+			<English>API .338, 5 Rounds</English>
+			<German>API .338, 5 Schuss</German>
+		</Key>
+
+<!-- special case famas f1 -->
+    <!-- 556x45 25 Rounds -->
+        <!-- CSGN_CP_25Rnd_556x45_Ball_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_Ball_FamasF1">
+			<Original>FMJ 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>FMJ 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>FMJ 5.56x45mm, 25 Schuss für die Famas F1</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_556x45_Mk262_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_Mk262_FamasF1">
+			<Original>Mk262 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>Mk262 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>Mk262 5.56x45mm, 25 Schuss für die Famas F1</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_556x45_Mk318_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_Mk318_FamasF1">
+			<Original>Mk318 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>Mk318 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>Mk318 5.56x45mm, 25 Schuss für die Famas F1</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_556x45_M995_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_M995_FamasF1">
+			<Original>M995 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>M995 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>M995 5.56x45mm, 25 Schuss für die Famas F1</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_556x45_Ball_T_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_Ball_T_FamasF1">
+			<Original>FMJ T 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>FMJ T 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>FMJ T 5.56x45mm, 25 Schuss für doe Famas F1</German>
+		</Key>
+        <!-- CSGN_CP_25Rnd_556x45_Ball_Tir_FamasF1 -->
+		<Key ID="STR_Name_CSGN_CP_25Rnd_556x45_Ball_Tir_FamasF1">
+			<Original>FMJ IR 5.56x45mm, 25 Rounds for the Famas F1</Original>
+			<English>FMJ IR 5.56x45mm, 25 Rounds for the Famas F1</English>
+			<German>FMJ IR 5.56x45mm, 25 Schuss für die Famas F1</German>
+		</Key>
+    </Package>
+</Project>
