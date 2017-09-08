@@ -1,6 +1,6 @@
 name = "CSGN Core Pack";
 author = "CSG: Nemesis";
-description = "Mod created by Members of CSG: Nemesis for CSG: Nemesis (and others) handling the compatibility of our modpack and more";
+description = "Mod created by Members of CSG: Nemesis for CSG: Nemesis handling the compatibility of our modpack and more";
 actionName = "CSG: Nemesis Website";
 action = "http://5.9.61.168/forum/index.php";
 picture = "CSGN_CP_Core\Images\picture.paa";        //expansionmenu picture
