@@ -23,7 +23,7 @@
         _CSGN_isPatched = "??? profit";
         faction = "CSGN_CP_WE_GER";
         CSGN_cargoItems[] = {};
-        CSGN_cargoMagazines[] = {"CSGN_CP_30Rnd_9x39_UW",6,"CSGN_CP_13Rnd_45ACP_Ball",1000};
+        CSGN_cargoMagazines[] = {};
         CSGN_cargoWeapons[] = {};
         CSGN_cargoBackpacks[] = {};
         
